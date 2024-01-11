@@ -2,7 +2,7 @@
  const router=express.Router()
  const  userController=require('../controllers/userController')
 
- router.route('/user')
+ router.route('/')
     .get(userController.getAllUsers)
     .post(userController.createNewUser)
     .patch(userController.updateUsers)

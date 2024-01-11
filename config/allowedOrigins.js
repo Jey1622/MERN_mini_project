@@ -1,7 +1,5 @@
 const allowedOrigins=[
-    'http://localhost:3000',
-    'https://www.dendrepairshop.com',
-    'https://dendrepairshop.com'
+    'http://localhost:3000'
 
 ]
 
